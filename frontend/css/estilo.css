@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, htmml {
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    width: 50%;
+    height: 40%;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+select option{
+    font-size: 16px;
+}
